@@ -66,14 +66,6 @@ Sınıflandırma modelleri yalnızca “hata var/yok” çıktısı verebilir; h
 
 ---
 
-## 5. Genel Akış
-```mermaid
-flowchart LR
-    A[El Yazısı Görseli] --> B[YOLOv8 Modeli<br>Hata Tespiti]
-    B --> C[Koordinat Çıktısı]
-    C --> D[Line Error Algoritması<br>(Satır Analizi)]
-    D --> E[Risk Skoru Hesaplama]
-    E --> F[Disordo Mobil Uygulama]
 
 
 
